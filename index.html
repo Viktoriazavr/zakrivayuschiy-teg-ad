@@ -1,18 +1,364 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Закрывающий тег</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/animations.css" />
-  </head>
-  <body class="page">
-    <header class="header"></header>
-    <main></main>
-    <script src="./scripts/like.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Закрывающий тег</title>
+
+  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./styles/variables.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/animations.css" />
+</head>
+
+
+<body class="page">
+  <header class="header container">
+    <h1 class="header__logo">&lt;/HTML&gt;</h1>
+    <p class="header__title">закрывающий тег</p>
+  </header>
+
+  <main class="content container">
+    <ul class="cards">
+      <li class="cards__item">
+        <article class="card">
+          <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+
+          <div class="card__image-wrapper">
+            <span class="card__label">старт</span>
+            <img class="card__image card__image_filter_1" src="./images/1.png" alt="Иллюстрация к карточке"
+              loading="lazy" />
+          </div>
+
+          <div class="card__text">
+            <p>Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И,
+              возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
+            <p>Место для ваших воспоминаний о начале обучения.</p>
+          </div>
+
+          <div class="card__footer">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+              <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path class="contour" fill="var(--contour-color)"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="main-body" fill="none"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="core" fill="none"
+                    d="M19.5 11.2c-2-2.7-4.3-4-6.8-4-3.1 0-5.6 2.7-5.6 6.1 0 1.7.7 3.4 2 4.7l10.4 11.6 10.4-11.6c1.3-1.3 2-3 2-4.7 0-3.4-2.5-6.1-5.6-6.1-2.5 0-4.8 1.3-6.8 4Z" />
+                </g>
+
+                <path class="sparks" fill="var(--animation-fill-color)"
+                  d="M4 18h2v2H4zM33 18h2v2h-2zM19 1h2v2h-2zM19 33h2v2h-2zM8 6h2v2H8zM29 6h2v2h-2zM8 28h2v2H8zM29 28h2v2h-2z" />
+              </svg>
+            </button>
+
+            <button class="button card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </article>
+      </li>
+
+      <li class="cards__item">
+        <article class="card">
+          <h2 class="card__title">1 спринт: Я — чистый лист</h2>
+
+          <div class="card__image-wrapper">
+            <span class="card__label">/HTML</span>
+            <img class="card__image card__image_filter_2" src="./images/2.png" alt="Иллюстрация к карточке"
+              loading="lazy" />
+          </div>
+
+          <div class="card__text">
+            <p>На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички. Один из них —
+              страх перед чистым листом. Это, конечно же, намного сложнее, чем боязнь куска бумаги. Часто за этим
+              ощущением скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не
+              справлюсь?я</p>
+
+            <p>Место для ваших воспоминаний о начале обучения.</p>
+          </div>
+
+          <div class="card__footer">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+              <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path class="contour" fill="var(--contour-color)"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="main-body" fill="none"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="core" fill="none"
+                    d="M19.5 11.2c-2-2.7-4.3-4-6.8-4-3.1 0-5.6 2.7-5.6 6.1 0 1.7.7 3.4 2 4.7l10.4 11.6 10.4-11.6c1.3-1.3 2-3 2-4.7 0-3.4-2.5-6.1-5.6-6.1-2.5 0-4.8 1.3-6.8 4Z" />
+                </g>
+                <path class="sparks" fill="var(--animation-fill-color)"
+                  d="M4 18h2v2H4zM33 18h2v2h-2zM19 1h2v2h-2zM19 33h2v2h-2zM8 6h2v2H8zM29 6h2v2h-2zM8 28h2v2H8zM29 28h2v2h-2z" />
+              </svg>
+            </button>
+
+            <button class="button card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </article>
+      </li>
+
+      <li class="cards__item">
+        <article class="card">
+          <h2 class="card__title">1 спринт: А если не получится?</h2>
+
+          <div class="card__image-wrapper">
+            <span class="card__label">CSS</span>
+            <img class="card__image card__image_filter_3" src="./images/3.png" alt="Иллюстрация к карточке"
+              loading="lazy" />
+          </div>
+
+          <div class="card__text">
+            <p>Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться
+              ожиданием провала. Или вы, наоборот, могли вдохновиться успехами и поверить в себя.</p>
+            <p>Место для ваших воспоминаний об окончании первого спринта.</p>
+          </div>
+
+          <div class="card__footer">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+              <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path class="contour" fill="var(--contour-color)"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="main-body" fill="none"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="core" fill="none"
+                    d="M19.5 11.2c-2-2.7-4.3-4-6.8-4-3.1 0-5.6 2.7-5.6 6.1 0 1.7.7 3.4 2 4.7l10.4 11.6 10.4-11.6c1.3-1.3 2-3 2-4.7 0-3.4-2.5-6.1-5.6-6.1-2.5 0-4.8 1.3-6.8 4Z" />
+                </g>
+                <path class="sparks" fill="var(--animation-fill-color)"
+                  d="M4 18h2v2H4zM33 18h2v2h-2zM19 1h2v2h-2zM19 33h2v2h-2zM8 6h2v2H8zM29 6h2v2h-2zM8 28h2v2H8zM29 28h2v2h-2z" />
+              </svg>
+            </button>
+
+            <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+          </div>
+        </article>
+      </li>
+
+      <li class="cards__item">
+        <article class="card">
+          <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
+
+          <div class="card__image-wrapper">
+            <span class="card__label">desigions</span>
+            <img class="card__image card__image_filter_4" src="./images/4.png" alt="Иллюстрация к карточке"
+              loading="lazy" />
+          </div>
+
+          <div class="card__text">
+            <p>На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди. Вы
+              могли попытаться погнаться за идеалом и понять, что он недостижим. А, может, вы вовсе и не подвержены
+              перфекционизму и вместо того, чтобы сделать идеально, старались просто сделать.</p>
+            <p>Место для ваших воспоминаний о начале второго спринта.</p>
+          </div>
+
+          <div class="card__footer">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+              <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path class="contour" fill="var(--contour-color)"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="main-body" fill="none"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="core" fill="none"
+                    d="M19.5 11.2c-2-2.7-4.3-4-6.8-4-3.1 0-5.6 2.7-5.6 6.1 0 1.7.7 3.4 2 4.7l10.4 11.6 10.4-11.6c1.3-1.3 2-3 2-4.7 0-3.4-2.5-6.1-5.6-6.1-2.5 0-4.8 1.3-6.8 4Z" />
+                </g>
+                <path class="sparks" fill="var(--animation-fill-color)"
+                  d="M4 18h2v2H4zM33 18h2v2h-2zM19 1h2v2h-2zM19 33h2v2h-2zM8 6h2v2H8zM29 6h2v2h-2zM8 28h2v2H8zM29 28h2v2h-2z" />
+              </svg>
+            </button>
+
+            <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+          </div>
+        </article>
+      </li>
+
+      <li class="cards__item">
+        <article class="card">
+          <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
+
+          <div class="card__image-wrapper">
+            <span class="card__label">care</span>
+            <img class="card__image card__image_filter_5" src="./images/5.png" alt="Иллюстрация к карточке"
+              loading="lazy" />
+          </div>
+
+          <div class="card__text">
+            <p>Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни против целого мира). Вас
+              окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться, если
+              очередной макет просто так не поддавался. Осваивать что-то новое легче, когда рядом есть единомышленники,
+              не правда ли?</p>
+            <p>Место для ваших воспоминаний об окончании второго спринта.</p>
+          </div>
+
+          <div class="card__footer">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+              <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path class="contour" fill="var(--contour-color)"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="main-body" fill="none"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="core" fill="none"
+                    d="M19.5 11.2c-2-2.7-4.3-4-6.8-4-3.1 0-5.6 2.7-5.6 6.1 0 1.7.7 3.4 2 4.7l10.4 11.6 10.4-11.6c1.3-1.3 2-3 2-4.7 0-3.4-2.5-6.1-5.6-6.1-2.5 0-4.8 1.3-6.8 4Z" />
+                </g>
+                <path class="sparks" fill="var(--animation-fill-color)"
+                  d="M4 18h2v2H4zM33 18h2v2h-2zM19 1h2v2h-2zM19 33h2v2h-2zM8 6h2v2H8zM29 6h2v2h-2zM8 28h2v2H8zM29 28h2v2h-2z" />
+              </svg>
+            </button>
+
+            <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+          </div>
+        </article>
+      </li>
+
+      <li class="cards__item">
+        <article class="card">
+          <h2 class="card__title">3 спринт: Обходные стратегии</h2>
+
+          <div class="card__image-wrapper">
+            <span class="card__label">support</span>
+            <img class="card__image card__image_filter_6" src="./images/6.png" alt="Иллюстрация к карточке"
+              loading="lazy" />
+          </div>
+
+          <div class="card__text">
+            <p>На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения
+              просто иссякли. Значит, пришло время посмотреть на задачу под другим углом.</p>
+            <p>Место для ваших воспоминаний о начале третьего спринта.</p>
+          </div>
+
+          <div class="card__footer">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+              <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path class="contour" fill="var(--contour-color)"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="main-body" fill="none"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="core" fill="none"
+                    d="M19.5 11.2c-2-2.7-4.3-4-6.8-4-3.1 0-5.6 2.7-5.6 6.1 0 1.7.7 3.4 2 4.7l10.4 11.6 10.4-11.6c1.3-1.3 2-3 2-4.7 0-3.4-2.5-6.1-5.6-6.1-2.5 0-4.8 1.3-6.8 4Z" />
+                </g>
+                <path class="sparks" fill="var(--animation-fill-color)"
+                  d="M4 18h2v2H4zM33 18h2v2h-2zM19 1h2v2h-2zM19 33h2v2h-2zM8 6h2v2H8zM29 6h2v2h-2zM8 28h2v2H8zM29 28h2v2h-2z" />
+              </svg>
+            </button>
+
+            <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+          </div>
+        </article>
+      </li>
+
+      <li class="cards__item">
+        <article class="card">
+          <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
+
+          <div class="card__image-wrapper">
+            <span class="card__label">lifes-style: none;</span>
+            <img class="card__image card__image_filter_7" src="./images/7.png" alt="Иллюстрация к карточке"
+              loading="lazy" />
+          </div>
+
+          <div class="card__text">
+            <p>Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора
+              сдавать, и задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. В такие
+              моменты очень нужна концентрация. Вспомните, откуда вы её черпали.</p>
+            <p>Место для ваших воспоминаний об окончании третьего спринта.</p>
+          </div>
+
+          <div class="card__footer">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+              <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path class="contour" fill="var(--contour-color)"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="main-body" fill="none"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="core" fill="none"
+                    d="M19.5 11.2c-2-2.7-4.3-4-6.8-4-3.1 0-5.6 2.7-5.6 6.1 0 1.7.7 3.4 2 4.7l10.4 11.6 10.4-11.6c1.3-1.3 2-3 2-4.7 0-3.4-2.5-6.1-5.6-6.1-2.5 0-4.8 1.3-6.8 4Z" />
+                </g>
+                <path class="sparks" fill="var(--animation-fill-color)"
+                  d="M4 18h2v2H4zM33 18h2v2h-2zM19 1h2v2h-2zM19 33h2v2h-2zM8 6h2v2H8zM29 6h2v2h-2zM8 28h2v2H8zM29 28h2v2h-2z" />
+              </svg>
+            </button>
+
+            <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+          </div>
+        </article>
+      </li>
+
+      <li class="cards__item">
+        <article class="card">
+          <h2 class="card__title">«Сейчас я здесь»</h2>
+
+          <div class="card__image-wrapper">
+            <span class="card__label">experience</span>
+            <img class="card__image card__image_filter_8" src="./images/8.png" alt="Иллюстрация к карточке"
+              loading="lazy" />
+          </div>
+
+          <div class="card__text">
+            <p>Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала
+              про «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир
+              постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс
+              познания. Ведь часто путь — и есть результат.</p>
+            <p>Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.</p>
+          </div>
+
+          <div class="card__footer">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+              <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path class="contour" fill="var(--contour-color)"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="main-body" fill="none"
+                    d="M12.1 2.6c2.1 0 4 1 5.2 2.7l2.2 3.1 2.2-3.1C22.9 3.6 24.8 2.6 26.9 2.6c3.8 0 6.8 3.3 6.8 7.3 0 2.1-.9 4.2-2.5 5.8L19.5 33 7.8 15.7C6.2 14.1 5.3 12 5.3 9.9c0-4 3-7.3 6.8-7.3Z" />
+                  <path class="core" fill="none"
+                    d="M19.5 11.2c-2-2.7-4.3-4-6.8-4-3.1 0-5.6 2.7-5.6 6.1 0 1.7.7 3.4 2 4.7l10.4 11.6 10.4-11.6c1.3-1.3 2-3 2-4.7 0-3.4-2.5-6.1-5.6-6.1-2.5 0-4.8 1.3-6.8 4Z" />
+                </g>
+                <path class="sparks" fill="var(--animation-fill-color)"
+                  d="M4 18h2v2H4zM33 18h2v2h-2zM19 1h2v2h-2zM19 33h2v2h-2zM8 6h2v2H8zM29 6h2v2h-2zM8 28h2v2H8zM29 28h2v2h-2z" />
+              </svg>
+            </button>
+
+            <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+          </div>
+        </article>
+      </li>
+    </ul>
+  </main>
+
+  <footer class="footer container">
+    <button class="button save-button" type="button" id="save-button">
+      <svg class="button__icon" viewBox="0 0 21 21" aria-hidden="true">
+        <use href="./svg/floppy.svg#floppy"></use>
+      </svg>
+      <span class="button__text">Сохранить на память</span>
+    </button>
+  </footer>
+
+  <dialog class="dialog" id="save-dialog" aria-label="Окно сохранения">
+    <div class="dialog__content">
+      <svg class="dialog__icon" viewBox="0 0 21 21" aria-hidden="true">
+        <use href="./svg/floppy.svg#floppy"></use>
+      </svg>
+      <p class="dialog__text">ВСТАВЬТЕ<br />ДИСКЕТУ, ЧТОБЫ<br />ПРОДОЛЖИТЬ</p>
+    </div>
+
+    <form class="dialog__form" method="dialog">
+      <button class="button dialog__button" type="submit">
+        <span class="button__text">OK</span>
+      </button>
+    </form>
+  </dialog>
+
+  <script src="./scripts/like.js"></script>
+</body>
+
 </html>
