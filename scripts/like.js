@@ -44,9 +44,20 @@ const saveButton = document.querySelector('#save-button');
 const dialog = document.querySelector('#save-dialog');
 
 if (saveButton && dialog) {
-    saveButton.addEventListener('click', () => dialog.showModal());
+    saveButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        dialog.showModal();
+    });
 
     dialog.addEventListener('click', (evt) => {
         if (evt.target === dialog) dialog.close();
+    });
+}
+
+const okButton = document.querySelector('.dialog__button');
+if (okButton) {
+    okButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        dialog.close();
     });
 }
