@@ -50,3 +50,12 @@ if (saveButton && dialog) {
         if (evt.target === dialog) dialog.close();
     });
 }
+
+
+const closeButton = document.querySelector('.dialog__button');
+
+if (closeButton && dialog) {
+    closeButton.addEventListener('click', () => {
+        dialog.close();
+    });
+}
