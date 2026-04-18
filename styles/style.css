@@ -117,29 +117,36 @@
     object-position: center;
 }
 
-.card__image_filter_1 { 
-    filter: contrast(1.1); 
+.card__image_filter_1 {
+    filter: contrast(1.1);
 }
-.card__image_filter_2 { 
-    filter: saturate(1.2); 
+
+.card__image_filter_2 {
+    filter: saturate(1.2);
 }
-.card__image_filter_3 { 
-    filter: hue-rotate(20deg); 
+
+.card__image_filter_3 {
+    filter: hue-rotate(20deg);
 }
-.card__image_filter_4 { 
-    filter: sepia(0.6); 
+
+.card__image_filter_4 {
+    filter: sepia(0.6);
 }
-.card__image_filter_5 { 
-    filter: grayscale(0.4); 
+
+.card__image_filter_5 {
+    filter: grayscale(0.4);
 }
-.card__image_filter_6 { 
+
+.card__image_filter_6 {
     filter: brightness(1.05) contrast(1.1);
 }
-.card__image_filter_7 { 
-    filter: blur(1px); 
+
+.card__image_filter_7 {
+    filter: blur(1px);
 }
-.card__image_filter_8 { 
-    filter: invert(0.05); 
+
+.card__image_filter_8 {
+    filter: invert(0.05);
 }
 
 .card__text {
